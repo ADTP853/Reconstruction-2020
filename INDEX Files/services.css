@@ -70,8 +70,6 @@ body{
       text-align: left;
     }
   }
-
-/* TRYING TO TARGET THE ACTIVE TAG TO KEEP IT PUSHED LEFT */
   @media screen and (max-width: 800px) {
     .active{
         display: flex;
@@ -79,3 +77,31 @@ body{
         color:red;
     }
   }
+
+  /* ATTEMPTING TO HAVE THE LISTS SIDE BY SIDE USING GRID */
+.platforms{
+    display: grid;
+}
+.first-list{
+    grid-column: 1;
+}
+.second-list{
+    grid-column: 2;
+}
+#intro{
+    margin: 5% 10% 5% 10%;
+}
+#intro a{
+    color:rgb(14, 197, 14);
+    text-decoration:none;
+}
+#intro a:hover{
+    color:rgb(0, 255, 0);
+}
+
+#intro li{
+    color: yellow;
+}
+#intro li a{
+    color: yellow;
+}
