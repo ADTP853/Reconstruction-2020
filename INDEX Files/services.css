@@ -6,6 +6,9 @@ body{
 }
 
 /* Add a black background color to the top navigation */
+h3{
+  font-family: monospace;
+}
 .nav-menu {
     font-family: monospace;
     display: flex;
@@ -88,6 +91,7 @@ body{
 .second-list{
     grid-column: 2;
 }
+  /* ATTEMPTING TO HAVE THE LISTS SIDE BY SIDE USING GRID */
 #intro{
     margin: 5% 10% 5% 10%;
 }
@@ -104,4 +108,45 @@ body{
 }
 #intro li a{
     color: yellow;
+}
+.fa-wordpress{
+  color: rgb(115, 115, 221);
+  background-color: white;
+}
+.fa-chalkboard-teacher{
+  color:whitesmoke;
+}
+.fa-shopping-basket{
+  color:rgb(14, 197, 14) ;
+}
+.fa-elementor{
+  color: rgb(191, 65, 216);
+}
+.fa-squarespace{
+  color: white;
+}
+.fa-wix{
+  color:rgb(68, 206, 248);
+}
+.fa-mailchimp{
+  color:white;
+}
+  /*  MEMBERSHIPS / ONLINE COURSES SECTION  */
+#memberships{
+  margin: 5% 10% 5% 10%;
+}
+.email{
+  color:rgb(14, 197, 14);
+}
+.email:hover{
+  color:rgb(0, 255, 0);
+}
+.questionnaire{
+  color:rgb(14, 197, 14);
+}
+.questionnaire:hover{
+  color:rgb(0, 255, 0);
+}
+#ecommerce{
+  margin: 5% 10% 5% 10%;
 }
