@@ -1,32 +1,17 @@
-
  /*  GENERAL THROUGHOUT THE PAGE  */
  body{
-  background-color: black;
-  color: orange;
-}
- .email{
-  color:rgb(14, 197, 14);
-}
-.email:hover{
-  color:rgb(0, 255, 0);
-}
-.questionnaire{
-  color:rgb(14, 197, 14);
-}
-.questionnaire:hover{
-  color:rgb(0, 255, 0);
-}
-h3{
-  font-family: monospace;
-}
-h5{
-  color:red;
-}
-.pricing{
-  color: whitesmoke;
-}
-/*  GENERAL THROUGHOUT THE PAGE END */
-/* NAVBAR */
+    background-color: black;
+    background-image: url("IMG_8102.JPG");
+    background-position: center;
+    background-size: cover;
+    color: orange;
+    font-size:20px;
+  }
+img{
+      opacity: 10%;
+  }
+  /*  GENERAL THROUGHOUT THE PAGE END */
+  /* NAVBAR */
 
 /* Add a black background color to the top navigation */
 
@@ -115,63 +100,16 @@ h5{
   /* ATTEMPTING TO HAVE THE LISTS SIDE BY SIDE USING GRID */
 
   /* NAVBAR END */
-
-/* INTRO SECTION */
-#intro{
+  #me{
     margin: 5% 10% 5% 10%;
-}
-#intro a{
+  }
+  #me a{
     color:rgb(14, 197, 14);
     text-decoration:none;
 }
-#intro a:hover{
+#me a:hover{
     color:rgb(0, 255, 0);
 }
-#intro li{
-    color: yellow;
+q{
+    color: white;
 }
-#intro li a{
-    color: yellow;
-}
-.fa-wordpress{
-  color: rgb(115, 115, 221);
-  background-color: white;
-}
-.fa-chalkboard-teacher{
-  color:whitesmoke;
-}
-.fa-shopping-basket{
-  color:rgb(14, 197, 14) ;
-}
-.fa-elementor{
-  color: rgb(191, 65, 216);
-}
-.fa-squarespace{
-  color: white;
-}
-.fa-wix{
-  color:rgb(68, 206, 248);
-}
-.fa-mailchimp{
-  color:white;
-}
-
-/* INTRO SECTION END */
- 
-  /*  SERVICES SECTION  */
-#memberships{
-  margin: 5% 10% 5% 10%;
-}
-#ecommerce{
-  margin: 5% 10% 5% 10%;
-}
-#websites{
-  margin: 5% 10% 5% 10%;
-}
-#custom{
-  margin: 5% 10% 5% 10%;
-}
-#support{
-  margin: 5% 10% 5% 10%;
-}
-/*  SERVICES SECTION END */

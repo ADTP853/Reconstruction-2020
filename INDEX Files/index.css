@@ -1,6 +1,12 @@
+
+/*  GENERAL THROUGHOUT THE PAGE  */
 body{
     background-color: black;
 }
+
+/*  GENERAL THROUGHOUT THE PAGE END */
+
+/* NAVBAR */
 
 /* Add a black background color to the top navigation */
 .nav-menu {
@@ -19,16 +25,13 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 24px;
-    
+    font-size: 24px; 
   }
-  
   /* Change the color of links on hover */
   .nav-menu a:hover {
     background-color: rgb(80, 80, 80);
     color: rgb(212, 160, 64);
   }
-  
   /* Add an active class to highlight the current page */
   .nav-menu a.active {
     background-color: rgb(80, 80, 80);
@@ -51,7 +54,6 @@ body{
       display: block;
     }
   }
-  
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
      This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 800px) {
@@ -76,5 +78,6 @@ body{
         color:red;
     }
   }
+  /* NAVBAR END */
   
   
