@@ -36,6 +36,7 @@ body{
   .nav-menu a.active {
     background-color: rgb(80, 80, 80);
     color: orange;
+    border: 1px solid  rgb(212, 160, 64);
   }
   .nav-menu a.active:hover {
     color: rgb(212, 160, 64);

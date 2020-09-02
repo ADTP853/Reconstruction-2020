@@ -1,15 +1,37 @@
  /*  GENERAL THROUGHOUT THE PAGE  */
  body{
     background-color: black;
-    background-image: url("IMG_8102.JPG");
     background-position: center;
     background-size: cover;
     color: orange;
     font-size:20px;
   }
-img{
-      opacity: 10%;
+  #banner{
+    background-image: url("matt-duncan-IUY_3DvM__w-unsplash.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 60vh;
+    position: relative;
+    text-align: center;
   }
+  #quote{
+    color:whitesmoke;
+    font-size: 42px;
+    position: absolute;
+    white-space: nowrap;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  #intro{
+    background-color: rgb(248, 179, 51);
+  }
+  #intro img{
+    height: 40vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
   /*  GENERAL THROUGHOUT THE PAGE END */
   /* NAVBAR */
 

@@ -155,7 +155,9 @@ h5{
 .fa-mailchimp{
   color:white;
 }
-
+#services_list{
+  font-size: 24px;
+}
 /* INTRO SECTION END */
  
   /*  SERVICES SECTION  */
