@@ -24,12 +24,20 @@
     transform: translate(-50%,-50%);
   }
   #intro{
-    background-color: rgb(248, 179, 51);
-  }
-  #intro img{
+    display: grid;
+    gap: 10px;
+    padding:5%;
+    justify-content: space-evenly;
+    grid-template-columns: 10vw 10vw 10vw 10vw;
+    background-color: orange;
     height: 40vh;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    color: white;
+  }
+  #intro > div{
+    background-color: black;
+    text-align:center;
+    height: 20vh;
+    width: 10vw;
   }
 
   /*  GENERAL THROUGHOUT THE PAGE END */
