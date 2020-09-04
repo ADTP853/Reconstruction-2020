@@ -23,22 +23,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
-  #intro{
-    display: grid;
-    gap: 10px;
-    padding:5%;
-    justify-content: space-evenly;
-    grid-template-columns: 10vw 10vw 10vw 10vw;
-    background-color: orange;
-    height: 40vh;
-    color: white;
-  }
-  #intro > div{
-    background-color: black;
-    text-align:center;
-    height: 20vh;
-    width: 10vw;
-  }
+  
 
   /*  GENERAL THROUGHOUT THE PAGE END */
   /* NAVBAR */
@@ -116,20 +101,47 @@
         color:red;
     }
   }
-
-  /* ATTEMPTING TO HAVE THE LISTS SIDE BY SIDE USING GRID */
-.platforms{
-    display: grid;
-}
-.first-list{
-    grid-column: 1;
-}
-.second-list{
-    grid-column: 2;
-}
-  /* ATTEMPTING TO HAVE THE LISTS SIDE BY SIDE USING GRID */
-
   /* NAVBAR END */
+  /* CURRENT STATUS */
+  
+  #intro{
+    display: grid;
+    grid-template-columns: [img1]20% [img2]20% [img3]20% [update]30%;
+    justify-content: space-evenly;
+    padding:2% 2% 2% 2%;
+    color: white;
+    background-color: orange;
+    height: 40vh;
+  }
+  .img1{
+    grid-column: 1;
+    background-image: url("4O2A1512.jpg");
+    background-size: cover;
+    background-position: center; 
+    
+  }
+  .img2{
+    grid-column: 2;
+    background-image: url("4O2A2138.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .img3{
+    grid-column: 3;
+    background-image: url("4O2A2915-2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .update{
+    display: flex;
+    align-items: center;
+    grid-column: 4;
+    height: 100%;
+    background-color: red;
+    padding: 2%;
+  }
+  
+  /* CURRENT STATUS END */
   #me{
     margin: 5% 10% 5% 10%;
   }
