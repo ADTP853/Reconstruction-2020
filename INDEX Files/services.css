@@ -115,7 +115,25 @@ h5{
   /* ATTEMPTING TO HAVE THE LISTS SIDE BY SIDE USING GRID */
 
   /* NAVBAR END */
-
+  /* BANNER SECTION */
+  #banner{
+    background-image: url("4O2A1969.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+  }
+  #quote{
+    color:whitesmoke;
+    font-size: 42px;
+    position: absolute;
+    white-space: nowrap;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  /* BANNER SECTION END */
 /* INTRO SECTION */
 #intro{
     margin: 5% 10% 5% 10%;
