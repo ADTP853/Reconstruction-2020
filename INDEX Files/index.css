@@ -3,52 +3,84 @@
 body{
     background-color: black;
 }
-
 /*  GENERAL THROUGHOUT THE PAGE END */
+/*  PARTS OF THE PAGE  */
+#main-banner{
+  background-image: url("Ronja_1406.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  height: 92.5vh;
+  text-align: center;
+}
+#main-banner p{
+  color: whitesmoke;
+  font-size: 2vw;
+  text-align: left;
+  line-height: 1;
+  position: absolute;
+  white-space: nowrap;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
 
+@media only screen and (max-width:800px){ 
+  #main-banner p{
+    font-size: 2.5vw;
+    top: 65%;
+    left: 40%
+  }
+} 
+@media only screen and (max-width:600px){ 
+  #main-banner p{
+    font-size: 2.8vw;
+
+  }
+}  
+/*  PARTS OF THE PAGE END */
 /* NAVBAR */
 
 /* Add a black background color to the top navigation */
+
 .nav-menu {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #333;
+    background-color: #1b2020;
     overflow: hidden;
-    font-family: monospace;
+    font-family: calluna light;
+    letter-spacing: 0.2em;
+    border-bottom: 6px solid #7e2501;
   }
   
   /* Style the links inside the navigation bar */
   .nav-menu a {
     float: left;
     display: block;
-    color: orange;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 24px; 
+    font-size: 20px; 
   }
   /* Change the color of links on hover */
   .nav-menu a:hover {
-    background-color: rgb(80, 80, 80);
-    color: rgb(212, 160, 64);
+    color:#7e2501;
+    text-decoration: none;
   }
   /* Add an active class to highlight the current page */
   .nav-menu a.active {
-    background-color: rgb(80, 80, 80);
-    color: orange;
-    border: 1px solid  rgb(212, 160, 64);
+    color: whitesmoke;
   }
   .nav-menu a.active:hover {
-    color: rgb(212, 160, 64);
+    color: #7e2501;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
   .nav-menu .icon {
     display: none;
   }
-  /* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). 
+  /* When the screen is less than 800 pixels wide, hide all links, except for the active one. 
      Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 80px) {
     .nav-menu a:not(.active) {display: none;}
     .nav-menu a.icon {
       float: right;
@@ -57,7 +89,7 @@ body{
   }
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
      This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 800px) {
+  @media screen and (min-width: 80px) {
     .nav-menu.responsive {position: relative;}
     .nav-menu.responsive a.icon {
       position: absolute;
@@ -72,9 +104,8 @@ body{
   }
 
 /* TRYING TO TARGET THE ACTIVE TAG TO KEEP IT PUSHED LEFT */
-  @media screen and (max-width: 800px) {
+  @media screen and (min-width: 80px) {
     .active{
-        display: flex;
         justify-content: left;
         color:red;
     }
