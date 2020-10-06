@@ -11,7 +11,6 @@ body{
   background-repeat: no-repeat; 
   background-position: center;
   height: 92.5vh;
-  text-align: center;
 }
 #main-banner p{
   color: whitesmoke;
@@ -24,20 +23,38 @@ body{
   left: 30%;
   transform: translate(-50%,-50%);
 }
-
+#intro{
+  background-image: url("northfolk-b_Qt9f2egBM-unsplash.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  height: 100vh;
+}
+#intro p{
+  background-color: whitesmoke;
+  padding: 5%;
+}
+#insight{
+  padding: 15% 30% 25% 30%;
+}
 @media only screen and (max-width:800px){ 
   #main-banner p{
     font-size: 2.5vw;
     top: 65%;
-    left: 40%
+    left: 40%;
   }
 } 
 @media only screen and (max-width:600px){ 
   #main-banner p{
     font-size: 2.8vw;
-
   }
-}  
+} 
+/* TABLETS (iPAD) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #insight{
+    padding: 15% 30% 25% 30%;
+  }
+}
 /*  PARTS OF THE PAGE END */
 /* NAVBAR */
 
